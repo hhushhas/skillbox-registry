@@ -1,0 +1,4 @@
+interface:
+  display_name: "Client Response Studio"
+  short_description: "Turn messy client context into replies"
+  default_prompt: "Use $client-comms-studio to turn this client context into a grounded reply and optional voice note."

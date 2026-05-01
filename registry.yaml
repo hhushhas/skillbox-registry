@@ -1,0 +1,158 @@
+version: 1
+skills:
+  agent-browser:
+    category: browser
+    description: "Run browser automation; use for web flows, local app QA, screenshots, and form interaction."
+    path: skills/agent-browser
+  ai-apps:
+    category: ai
+    description: "Build AI app features; use for chat, agents, tools, streaming, and AI-native UI."
+    path: skills/ai-apps
+  ai-sdk:
+    category: ai
+    description: "Work with Vercel AI SDK; use for generateText, streamText, tools, and agent flows."
+    path: skills/ai-sdk
+  axiom:
+    category: cloud
+    description: "Investigate Axiom observability; use for logs, dashboards, incidents, and query cost."
+    path: skills/axiom
+  better-auth:
+    category: backend
+    description: "Implement Better Auth; use for auth flows, organizations, RBAC, MFA, and security."
+    path: skills/better-auth
+  client-comms-studio:
+    category: project
+    description: "Draft client communications; use for emails, WhatsApp replies, briefs, and proposals."
+    path: skills/client-comms-studio
+  cloudflare:
+    category: cloud
+    description: "Work with Cloudflare; use for Workers, Pages, storage, networking, and deploys."
+    path: skills/cloudflare
+  codex:
+    category: project
+    description: "Operate Codex CLI; use for exec, resume, review, config, and local troubleshooting."
+    path: skills/codex
+  collabez-projects-deployments:
+    category: project
+    description: "Deploy CollabEZ projects; use for LMS, Amplify, S3, EC2, Docker, and release checks."
+    path: skills/collabez-projects-deployments
+  convex:
+    category: backend
+    description: "Build with Convex; use for functions, realtime data, auth, agents, and deployment."
+    path: skills/convex
+  default-typescript-stack:
+    category: backend
+    description: "Choose Hasan's TypeScript stack; use only when explicitly requested for new apps."
+    path: skills/default-typescript-stack
+  design-agent-briefing:
+    category: design
+    description: "Create design-agent briefs; use for concise UI prompts, references, and design direction."
+    path: skills/design-agent-briefing
+  design-collaboration:
+    category: design
+    description: "Explore UI direction; use for options, ASCII mockups, critique, and approval gates."
+    path: skills/design-collaboration
+  design-spec:
+    category: design
+    description: "Write design specs; use for target shape, architecture decisions, and execution plans."
+    path: skills/design-spec
+  effect-best-practices:
+    category: backend
+    description: "Apply Effect patterns; use for services, schemas, layers, config, errors, and logging."
+    path: skills/effect-best-practices
+  feature-build-planner:
+    category: project
+    description: "Plan new feature builds; use for greenfield slices, dependencies, and implementation waves."
+    path: skills/feature-build-planner
+  feature-rebuild-planner:
+    category: project
+    description: "Plan feature rebuilds; use for strip-outs, replacements, migrations, and accepted blast radius."
+    path: skills/feature-rebuild-planner
+  find-skills:
+    category: project
+    description: "Find installable skills; use when looking for a skill or capability to add."
+    path: skills/find-skills
+  frontend:
+    category: frontend
+    description: "Build and polish frontend UI; use for layouts, components, accessibility, and visual QA."
+    path: skills/frontend
+  git-merge-report:
+    category: project
+    description: "Prepare merge reports; use for non-destructive branch comparison and conflict planning."
+    path: skills/git-merge-report
+  grill-me:
+    category: design
+    description: "Stress-test a plan; use for rigorous questioning, tradeoffs, and decision clarity."
+    path: skills/grill-me
+  logging-best-practices:
+    category: backend
+    description: "Design useful logs; use for structured wide events, debugging, and analytics signals."
+    path: skills/logging-best-practices
+  macos-downloads-screenshots-hygiene:
+    category: project
+    description: "Clean macOS files; use for Downloads, screenshots, screen recordings, and Trash recovery."
+    path: skills/macos-downloads-screenshots-hygiene
+  mobile-app-provisioning:
+    category: cloud
+    description: "Provision mobile apps; use for Expo EAS, Play Console, Apple Developer, and push setup."
+    path: skills/mobile-app-provisioning
+  openai-docs:
+    category: ai
+    description: "Use OpenAI docs; use for current OpenAI API guidance, models, SDKs, and citations."
+    path: skills/openai-docs
+  react:
+    category: frontend
+    description: "Work with React; use for components, Next.js, performance, and React Native guidance."
+    path: skills/react
+  refactor-planner:
+    category: project
+    description: "Plan refactors; use for migration maps, dependency waves, and low-overhead contracts."
+    path: skills/refactor-planner
+  shadcn:
+    category: frontend
+    description: "Work with shadcn/ui; use for component installs, registry usage, styling, and composition."
+    path: skills/shadcn
+  skill-creator:
+    category: project
+    description: "Create or update skills; use for skill structure, metadata, references, and validation."
+    path: skills/skill-creator
+  skill-installer:
+    category: project
+    description: "Install skills; use for curated skills, GitHub skill repos, and local skill setup."
+    path: skills/skill-installer
+  spec-html-reader:
+    category: design
+    description: "Render specs as HTML; use for reviewable architecture, plans, diagrams, and contracts."
+    path: skills/spec-html-reader
+  spl-to-apl:
+    category: backend
+    description: "Translate Splunk SPL to APL; use for query migration and Axiom equivalents."
+    path: skills/spl-to-apl
+  swarm-planner:
+    category: project
+    description: "Plan multi-agent execution; use only when explicitly requested for parallel work."
+    path: skills/swarm-planner
+  tanstack-start-best-practices:
+    category: backend
+    description: "Build with TanStack Start; use for full-stack React, SSR, auth, and server functions."
+    path: skills/tanstack-start-best-practices
+  terraform:
+    category: cloud
+    description: "Author Terraform; use for modules, infrastructure design, and IaC style."
+    path: skills/terraform
+  vercel-react-best-practices:
+    category: frontend
+    description: "Optimize React and Next.js; use for rendering, data fetching, bundles, and performance."
+    path: skills/vercel-react-best-practices
+  web-design-guidelines:
+    category: design
+    description: "Review web UI quality; use for accessibility, UX, layout, and interface guidelines."
+    path: skills/web-design-guidelines
+  youtube-transcript-summary:
+    category: ai
+    description: "Summarize YouTube transcripts; use for key points, timestamps, quotes, and takeaways."
+    path: skills/youtube-transcript-summary
+  zoom-out:
+    category: project
+    description: "Zoom out on context; use for broader architecture, codebase fit, and orientation."
+    path: skills/zoom-out

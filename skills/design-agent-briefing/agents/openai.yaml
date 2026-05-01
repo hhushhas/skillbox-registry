@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Prompt Partner"
+  short_description: "Think through UI problems and craft short design prompts"
+  default_prompt: "Use $design-agent-briefing to help me think through this UI problem and write short prompt paragraphs for a design agent."

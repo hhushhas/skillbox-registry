@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Transcript Summary"
+  short_description: "Fetch YouTube transcripts fast and summarize what was taught."
+  default_prompt: "Paste a YouTube link or video ID. Fetch the transcript first, then summarize the main teachings, examples, and practical takeaways."

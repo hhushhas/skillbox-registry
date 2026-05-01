@@ -1,0 +1,4 @@
+interface:
+  display_name: "macOS Downloads & Screenshots Hygiene"
+  short_description: "Clean Downloads, rename screenshots, recover Trash"
+  default_prompt: "Use $macos-downloads-screenshots-hygiene to clean up Downloads, rename screenshots, recover kept files from Trash, or unstick Finder on macOS."
