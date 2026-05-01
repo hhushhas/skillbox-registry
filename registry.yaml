@@ -1,0 +1,6 @@
+version: 1
+skills:
+  default-typescript-stack:
+    category: backend
+    description: "Choose Hasan's TypeScript stack; use only when explicitly requested for new apps."
+    path: skills/default-typescript-stack
