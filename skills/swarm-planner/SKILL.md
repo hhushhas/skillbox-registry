@@ -1,8 +1,6 @@
 ---
 name: swarm-planner
-description: >
-  [EXPLICIT INVOCATION ONLY] Creates dependency-aware implementation plans optimized for parallel
-  multi-agent execution.
+description: "Plan multi-agent execution; use only when explicitly requested for parallel work."
 metadata:
   invocation: explicit-only
 disable-model-invocation: true

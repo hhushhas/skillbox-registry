@@ -1,6 +1,6 @@
 ---
 name: design-spec
-description: Use when the user wants to create or refine a design spec for a feature, architecture change, or implementation plan before coding begins. Especially useful for locking the target shape, domain language, truth status, and execution strategy in a low-reading-overhead format.
+description: "Write design specs; use for target shape, architecture decisions, and execution plans."
 disable-model-invocation: true
 ---
 

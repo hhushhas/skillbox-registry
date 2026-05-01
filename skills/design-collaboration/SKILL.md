@@ -1,6 +1,6 @@
 ---
 name: design-collaboration
-description: Collaborative UI/UX workflow for ambiguous or high-leverage design work. Use when the user wants brainstorming, multiple directions, ASCII mockups, self-critique, or an approval gate before coding.
+description: "Explore UI direction; use for options, ASCII mockups, critique, and approval gates."
 disable-model-invocation: true
 ---
 

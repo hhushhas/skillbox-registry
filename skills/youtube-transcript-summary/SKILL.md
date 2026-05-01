@@ -1,6 +1,6 @@
 ---
 name: youtube-transcript-summary
-description: Fetch YouTube video transcripts and summarize what was taught, argued, demoed, or discussed. Use when the user shares a YouTube link or video ID and wants a fast breakdown of the content, key teachings, examples, timestamps, quotes, or practical takeaways without watching the full video.
+description: "Summarize YouTube transcripts; use for key points, timestamps, quotes, and takeaways."
 disable-model-invocation: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: better-auth
-description: Umbrella skill for Better Auth setup, implementation, email/password flows, org/RBAC, MFA, and security. Use as the single entrypoint for Better Auth work.
+description: "Implement Better Auth; use for auth flows, organizations, RBAC, MFA, and security."
 disable-model-invocation: true
 ---
 

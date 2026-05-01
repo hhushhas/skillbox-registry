@@ -1,6 +1,6 @@
 ---
 name: axiom
-description: Umbrella skill for Axiom work. Use for incident debugging, observability investigation, dashboard design, and ingest/query cost reduction. Routes to archived Axiom leaf skills for deep procedures.
+description: "Investigate Axiom observability; use for logs, dashboards, incidents, and query cost."
 disable-model-invocation: true
 ---
 

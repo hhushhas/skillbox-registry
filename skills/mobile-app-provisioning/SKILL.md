@@ -1,6 +1,6 @@
 ---
 name: mobile-app-provisioning
-description: End-to-end provisioning for a new Expo/React Native app across Expo EAS, Google Cloud Auth/FCM, Google Play Console, Apple Developer, and App Store Connect. Use when creating store apps, signing credentials, push keys, OAuth clients, EAS Submit credentials, Play/App Store records, or repeatable launch handoff notes.
+description: "Provision mobile apps; use for Expo EAS, Play Console, Apple Developer, and push setup."
 disable-model-invocation: true
 ---
 

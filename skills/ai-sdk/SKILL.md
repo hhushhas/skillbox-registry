@@ -1,6 +1,6 @@
 ---
 name: ai-sdk
-description: 'Use to help build AI-powered features. Triggers on: "AI SDK","Vercel AI SDK", "generateText", "streamText", "add AI to my app", "build an agent", "tool calling".'
+description: "Work with Vercel AI SDK; use for generateText, streamText, tools, and agent flows."
 disable-model-invocation: true
 ---
 

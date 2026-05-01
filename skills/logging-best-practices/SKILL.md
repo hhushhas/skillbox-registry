@@ -1,6 +1,6 @@
 ---
 name: logging-best-practices
-description: Logging best practices focused on wide events (canonical log lines) for powerful debugging and analytics
+description: "Design useful logs; use for structured wide events, debugging, and analytics signals."
 license: MIT
 metadata:
   author: boristane

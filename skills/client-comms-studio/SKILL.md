@@ -1,6 +1,6 @@
 ---
 name: client-comms-studio
-description: Turn messy client inputs into grounded outbound communication. Use when the input is a voice note, pasted text, email thread, chat log, or automation payload and the goal is to understand the ask, do any needed research, resolve ambiguity, and produce a client-safe WhatsApp reply, email draft, internal brief, proposal notes, or optional voice note in the appropriate language.
+description: "Draft client communications; use for emails, WhatsApp replies, briefs, and proposals."
 disable-model-invocation: true
 ---
 

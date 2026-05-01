@@ -1,6 +1,6 @@
 ---
 name: terraform
-description: Umbrella skill for Terraform authoring. Use for Terraform module design, code generation, and style/structure best practices.
+description: "Author Terraform; use for modules, infrastructure design, and IaC style."
 disable-model-invocation: true
 ---
 

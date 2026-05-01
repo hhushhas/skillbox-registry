@@ -1,6 +1,6 @@
 ---
 name: git-merge-report
-description: Generate a decision-complete Markdown merge-intel report for merging branch/ref A into B (same repo or two repos). Non-destructive inspection only. commit sets, patch-equivalence, diffstat/name-status, conflict hotspots, working-tree dirt, and a no-loss merge strategy.
+description: "Prepare merge reports; use for non-destructive branch comparison and conflict planning."
 disable-model-invocation: true
 ---
 

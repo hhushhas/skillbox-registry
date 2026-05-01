@@ -1,6 +1,6 @@
 ---
 name: ai-apps
-description: Umbrella skill for building AI-powered product features and interfaces. Use for AI SDK implementation, chatbots, agents, tool calling, streaming, structured output, and AI-native UI work.
+description: "Build AI app features; use for chat, agents, tools, streaming, and AI-native UI."
 disable-model-invocation: true
 ---
 

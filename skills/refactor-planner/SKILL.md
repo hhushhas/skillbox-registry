@@ -1,6 +1,6 @@
 ---
 name: refactor-planner
-description: Use when the user is doing a large refactor or migration and wants a standardized, low-reading-overhead prompt and response format. Especially useful for API-server migrations, route-family mapping, Effect adoption, HTTP-layer rewrites, and dependency-aware execution waves where the agent must trace ingress to leaf dependencies without getting sidetracked.
+description: "Plan refactors; use for migration maps, dependency waves, and low-overhead contracts."
 disable-model-invocation: true
 ---
 

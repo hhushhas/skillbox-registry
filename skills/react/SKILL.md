@@ -1,6 +1,6 @@
 ---
 name: react
-description: Umbrella skill for React ecosystem best practices. Use for React, Next.js, component composition, performance work, and React Native/Expo guidance.
+description: "Work with React; use for components, Next.js, performance, and React Native guidance."
 disable-model-invocation: true
 ---
 

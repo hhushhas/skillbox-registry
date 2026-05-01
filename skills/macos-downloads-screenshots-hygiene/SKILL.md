@@ -1,6 +1,6 @@
 ---
 name: macos-downloads-screenshots-hygiene
-description: Organize messy macOS Downloads/Desktop folders, rename screenshots and screen recordings into date-first searchable names, recover important files from Trash, and safely clear Trash or unstick Finder after heavy file operations. Use when the user asks to clean up Downloads, classify loose files, rename screenshots contextually, rescue images/docs from Trash, review what was deleted, or fix Finder after Trash/AppleScript work.
+description: "Clean macOS files; use for Downloads, screenshots, screen recordings, and Trash recovery."
 disable-model-invocation: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: effect-best-practices
-description: Applies the project's Effect-TS style for backend services, errors, schemas, layers, config, logging, and typed Effect composition. Use when writing or reviewing Effect.Service, Schema.TaggedError, Layer composition, Config, Effect.fn, Option, or domain schemas.
+description: "Apply Effect patterns; use for services, schemas, layers, config, errors, and logging."
 version: 1.0.0
 disable-model-invocation: true
 ---

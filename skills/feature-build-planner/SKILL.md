@@ -1,6 +1,6 @@
 ---
 name: feature-build-planner
-description: Use when the user wants to build a feature from scratch in a new project, or add a brand-new feature to an existing project where there is no meaningful existing implementation to rebuild. Especially useful for greenfield feature planning, first vertical slices, product intent locking, integration-boundary discovery, dependency-aware implementation waves, and execution where surrounding app conventions matter but no legacy feature parity should be invented.
+description: "Plan new feature builds; use for greenfield slices, dependencies, and implementation waves."
 disable-model-invocation: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: feature-rebuild-planner
-description: Use when the user wants to rip apart an existing feature and rebuild it from a clean target shape instead of doing a compatibility-preserving refactor. Especially useful for feature redesigns, legacy feature strip-outs, large accepted blast-radius rewrites, new domain replacements, and planning work where old naming, DTOs, routes, storage flows, tool contracts, or conventions should be treated as evidence rather than authority.
+description: "Plan feature rebuilds; use for strip-outs, replacements, migrations, and accepted blast radius."
 disable-model-invocation: true
 ---
 

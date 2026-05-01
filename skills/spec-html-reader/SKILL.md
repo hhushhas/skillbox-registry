@@ -1,6 +1,6 @@
 ---
 name: spec-html-reader
-description: Use when the user wants a long Markdown spec, refactor contract, feature contract, execution plan, or architecture document turned into a standalone human-readable HTML reader with polished dark UI, syntax-highlighted contracts, diagrams, copy buttons, search, and browser screenshots. Especially useful as a review artifact for large specs before implementation.
+description: "Render specs as HTML; use for reviewable architecture, plans, diagrams, and contracts."
 ---
 
 # Spec HTML Reader

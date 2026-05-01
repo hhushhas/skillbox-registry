@@ -1,6 +1,6 @@
 ---
 name: design-agent-briefing
-description: Help users think through UI and UX problems with AI, then craft short, high-signal prompt paragraphs for a design agent. Use when the user wants a design-thinking partner for a screen, flow, or component; wants better prompts for an AI design tool or agent; shares screenshots as style or prompting references; or asks for concise design briefs instead of long specs.
+description: "Create design-agent briefs; use for concise UI prompts, references, and design direction."
 disable-model-invocation: true
 ---
 

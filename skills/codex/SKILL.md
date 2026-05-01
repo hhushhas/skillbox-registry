@@ -1,6 +1,6 @@
 ---
 name: codex
-description: Use for Codex CLI tasks including exec resume and review. Prefer local CLI help and official Codex docs over memory.
+description: "Operate Codex CLI; use for exec, resume, review, config, and local troubleshooting."
 disable-model-invocation: true
 ---
 

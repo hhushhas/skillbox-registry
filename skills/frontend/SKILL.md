@@ -1,6 +1,6 @@
 ---
 name: frontend
-description: Ultimate frontend working skill. Use for UI implementation, visual polish, layout, hierarchy, interaction design, accessibility, stateful UI, component work, landing pages, dashboards, and distinctive production-grade frontend output.
+description: "Build and polish frontend UI; use for layouts, components, accessibility, and visual QA."
 disable-model-invocation: true
 ---
 

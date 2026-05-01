@@ -1,6 +1,6 @@
 ---
 name: collabez-projects-deployments
-description: Umbrella skill for project-specific deployments across CollabDash, ET LMS, and TH LMS. Use for shipping, release verification, Amplify, S3 + CloudFront, EC2, Docker Compose, PM2, and Chalk-version rollout work on these projects.
+description: "Deploy CollabEZ projects; use for LMS, Amplify, S3, EC2, Docker, and release checks."
 disable-model-invocation: true
 ---
 
