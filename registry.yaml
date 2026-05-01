@@ -1,158 +1,469 @@
+---
 version: 1
 skills:
   agent-browser:
     category: browser
-    description: "Run browser automation; use for web flows, local app QA, screenshots, and form interaction."
+    description: Run browser automation; use for web flows, local app QA, screenshots, and form interaction.
     path: skills/agent-browser
+    aliases:
+    - browser
+    - automation
+    - website
+    - web
+    - qa
+    - screenshot
+    - screenshots
+    - form
+    - forms
+    - login
+    - scrape
+    - playwright
+    - chrome
   ai-apps:
     category: ai
-    description: "Build AI app features; use for chat, agents, tools, streaming, and AI-native UI."
+    description: Build AI app features; use for chat, agents, tools, streaming, and AI-native UI.
     path: skills/ai-apps
+    aliases:
+    - chat
+    - chatbot
+    - agent
+    - agents
+    - tools
+    - tool-calling
+    - streaming
+    - structured-output
+    - llm
+    - assistant
   ai-sdk:
     category: ai
-    description: "Work with Vercel AI SDK; use for generateText, streamText, tools, and agent flows."
+    description: Work with Vercel AI SDK; use for generateText, streamText, tools, and agent flows.
     path: skills/ai-sdk
+    aliases:
+    - vercel-ai-sdk
+    - ai-sdk
+    - generateText
+    - streamText
+    - tool-calling
+    - tools
+    - agents
+    - chatbot
   axiom:
     category: cloud
-    description: "Investigate Axiom observability; use for logs, dashboards, incidents, and query cost."
+    description: Investigate Axiom observability; use for logs, dashboards, incidents, and query cost.
     path: skills/axiom
+    aliases:
+    - observability
+    - logs
+    - logging
+    - dashboard
+    - incident
+    - sre
+    - query
+    - apl
   better-auth:
     category: backend
-    description: "Implement Better Auth; use for auth flows, organizations, RBAC, MFA, and security."
+    description: Implement Better Auth; use for auth flows, organizations, RBAC, MFA, and security.
     path: skills/better-auth
+    aliases:
+    - auth
+    - authentication
+    - login
+    - session
+    - org
+    - rbac
+    - mfa
+    - two-factor
   client-comms-studio:
     category: project
-    description: "Draft client communications; use for emails, WhatsApp replies, briefs, and proposals."
+    description: Draft client communications; use for emails, WhatsApp replies, briefs, and proposals.
     path: skills/client-comms-studio
+    aliases:
+    - email
+    - whatsapp
+    - client
+    - communication
+    - proposal
+    - brief
+    - reply
+    - voice-note
   cloudflare:
     category: cloud
-    description: "Work with Cloudflare; use for Workers, Pages, storage, networking, and deploys."
+    description: Work with Cloudflare; use for Workers, Pages, storage, networking, and deploys.
     path: skills/cloudflare
+    aliases:
+    - workers
+    - pages
+    - wrangler
+    - kv
+    - d1
+    - r2
+    - durable-objects
+    - deploy
+    - edge
   codex:
     category: project
-    description: "Operate Codex CLI; use for exec, resume, review, config, and local troubleshooting."
+    description: Operate Codex CLI; use for exec, resume, review, config, and local troubleshooting.
     path: skills/codex
+    aliases:
+    - codex
+    - cli
+    - resume
+    - exec
+    - review
+    - config
+    - thread
   collabez-projects-deployments:
     category: project
-    description: "Deploy CollabEZ projects; use for LMS, Amplify, S3, EC2, Docker, and release checks."
+    description: Deploy CollabEZ projects; use for LMS, Amplify, S3, EC2, Docker, and release checks.
     path: skills/collabez-projects-deployments
+    aliases:
+    - deploy
+    - deployment
+    - lms
+    - amplify
+    - s3
+    - cloudfront
+    - ec2
+    - chalk
   convex:
     category: backend
-    description: "Build with Convex; use for functions, realtime data, auth, agents, and deployment."
+    description: Build with Convex; use for functions, realtime data, auth, agents, and deployment.
     path: skills/convex
+    aliases:
+    - convex
+    - functions
+    - realtime
+    - database
+    - backend
+    - auth
+    - deploy
   default-typescript-stack:
     category: backend
-    description: "Choose Hasan's TypeScript stack; use only when explicitly requested for new apps."
+    description: Choose Hasan's TypeScript stack; use only when explicitly requested for new apps.
     path: skills/default-typescript-stack
+    aliases:
+    - typescript
+    - stack
+    - new-app
+    - starter
+    - scaffold
   design-agent-briefing:
     category: design
-    description: "Create design-agent briefs; use for concise UI prompts, references, and design direction."
+    description: Create design-agent briefs; use for concise UI prompts, references, and design direction.
     path: skills/design-agent-briefing
+    aliases:
+    - design
+    - prompt
+    - brief
+    - ui
+    - ux
+    - visual
+    - agent
   design-collaboration:
     category: design
-    description: "Explore UI direction; use for options, ASCII mockups, critique, and approval gates."
+    description: Explore UI direction; use for options, ASCII mockups, critique, and approval gates.
     path: skills/design-collaboration
+    aliases:
+    - design
+    - ui
+    - ux
+    - mockup
+    - ascii
+    - options
+    - critique
+    - brainstorm
   design-spec:
     category: design
-    description: "Write design specs; use for target shape, architecture decisions, and execution plans."
+    description: Write design specs; use for target shape, architecture decisions, and execution plans.
     path: skills/design-spec
+    aliases:
+    - spec
+    - design
+    - architecture
+    - plan
+    - target-shape
+    - contract
   effect-best-practices:
     category: backend
-    description: "Apply Effect patterns; use for services, schemas, layers, config, errors, and logging."
+    description: Apply Effect patterns; use for services, schemas, layers, config, errors, and logging.
     path: skills/effect-best-practices
+    aliases:
+    - effect
+    - effect-ts
+    - schema
+    - layer
+    - service
+    - tagged-error
+    - config
   feature-build-planner:
     category: project
-    description: "Plan new feature builds; use for greenfield slices, dependencies, and implementation waves."
+    description: Plan new feature builds; use for greenfield slices, dependencies, and implementation waves.
     path: skills/feature-build-planner
+    aliases:
+    - feature
+    - greenfield
+    - build
+    - plan
+    - implementation
+    - waves
   feature-rebuild-planner:
     category: project
-    description: "Plan feature rebuilds; use for strip-outs, replacements, migrations, and accepted blast radius."
+    description: Plan feature rebuilds; use for strip-outs, replacements, migrations, and accepted blast radius.
     path: skills/feature-rebuild-planner
+    aliases:
+    - rebuild
+    - migration
+    - strip-out
+    - refactor
+    - replacement
+    - plan
   find-skills:
     category: project
-    description: "Find installable skills; use when looking for a skill or capability to add."
+    description: Find installable skills; use when looking for a skill or capability to add.
     path: skills/find-skills
+    aliases:
+    - discover
+    - search
+    - install
+    - skill
+    - capability
   frontend:
     category: frontend
-    description: "Build and polish frontend UI; use for layouts, components, accessibility, and visual QA."
+    description: Build and polish frontend UI; use for layouts, components, accessibility, and visual QA.
     path: skills/frontend
+    aliases:
+    - ui
+    - ux
+    - frontend
+    - interface
+    - layout
+    - components
+    - accessibility
+    - visual
+    - polish
   git-merge-report:
     category: project
-    description: "Prepare merge reports; use for non-destructive branch comparison and conflict planning."
+    description: Prepare merge reports; use for non-destructive branch comparison and conflict planning.
     path: skills/git-merge-report
+    aliases:
+    - git
+    - merge
+    - conflict
+    - branch
+    - diff
+    - report
   grill-me:
     category: design
-    description: "Stress-test a plan; use for rigorous questioning, tradeoffs, and decision clarity."
+    description: Stress-test a plan; use for rigorous questioning, tradeoffs, and decision clarity.
     path: skills/grill-me
+    aliases:
+    - grill
+    - questions
+    - critique
+    - plan
+    - decision
+    - stress-test
   logging-best-practices:
     category: backend
-    description: "Design useful logs; use for structured wide events, debugging, and analytics signals."
+    description: Design useful logs; use for structured wide events, debugging, and analytics signals.
     path: skills/logging-best-practices
+    aliases:
+    - logging
+    - logs
+    - observability
+    - events
+    - debugging
+    - analytics
   macos-downloads-screenshots-hygiene:
     category: project
-    description: "Clean macOS files; use for Downloads, screenshots, screen recordings, and Trash recovery."
+    description: Clean macOS files; use for Downloads, screenshots, screen recordings, and Trash recovery.
     path: skills/macos-downloads-screenshots-hygiene
+    aliases:
+    - macos
+    - downloads
+    - screenshots
+    - cleanup
+    - files
+    - trash
+    - desktop
   mobile-app-provisioning:
     category: cloud
-    description: "Provision mobile apps; use for Expo EAS, Play Console, Apple Developer, and push setup."
+    description: Provision mobile apps; use for Expo EAS, Play Console, Apple Developer, and push setup.
     path: skills/mobile-app-provisioning
+    aliases:
+    - mobile
+    - expo
+    - eas
+    - app-store
+    - play-console
+    - push
+    - fcm
+    - oauth
   openai-docs:
     category: ai
-    description: "Use OpenAI docs; use for current OpenAI API guidance, models, SDKs, and citations."
+    description: Use OpenAI docs; use for current OpenAI API guidance, models, SDKs, and citations.
     path: skills/openai-docs
+    aliases:
+    - openai
+    - api
+    - model
+    - models
+    - responses
+    - sdk
+    - docs
+    - gpt
   react:
     category: frontend
-    description: "Work with React; use for components, Next.js, performance, and React Native guidance."
+    description: Work with React; use for components, Next.js, performance, and React Native guidance.
     path: skills/react
+    aliases:
+    - react
+    - next
+    - nextjs
+    - expo
+    - react-native
+    - components
+    - hooks
   refactor-planner:
     category: project
-    description: "Plan refactors; use for migration maps, dependency waves, and low-overhead contracts."
+    description: Plan refactors; use for migration maps, dependency waves, and low-overhead contracts.
     path: skills/refactor-planner
+    aliases:
+    - refactor
+    - migration
+    - plan
+    - dependency
+    - waves
+    - contract
   shadcn:
     category: frontend
-    description: "Work with shadcn/ui; use for component installs, registry usage, styling, and composition."
+    description: Work with shadcn/ui; use for component installs, registry usage, styling, and composition.
     path: skills/shadcn
+    aliases:
+    - shadcn
+    - ui
+    - components
+    - radix
+    - tailwind
+    - registry
   skill-creator:
     category: project
-    description: "Create or update skills; use for skill structure, metadata, references, and validation."
+    description: Create or update skills; use for skill structure, metadata, references, and validation.
     path: skills/skill-creator
+    aliases:
+    - skill
+    - create
+    - author
+    - metadata
+    - frontmatter
   skill-installer:
     category: project
-    description: "Install skills; use for curated skills, GitHub skill repos, and local skill setup."
+    description: Install skills; use for curated skills, GitHub skill repos, and local skill setup.
     path: skills/skill-installer
+    aliases:
+    - skill
+    - install
+    - github
+    - curated
   spec-html-reader:
     category: design
-    description: "Render specs as HTML; use for reviewable architecture, plans, diagrams, and contracts."
+    description: Render specs as HTML; use for reviewable architecture, plans, diagrams, and contracts.
     path: skills/spec-html-reader
+    aliases:
+    - html
+    - reader
+    - spec
+    - artifact
+    - architecture
+    - diagram
+    - review
   spl-to-apl:
     category: backend
-    description: "Translate Splunk SPL to APL; use for query migration and Axiom equivalents."
+    description: Translate Splunk SPL to APL; use for query migration and Axiom equivalents.
     path: skills/spl-to-apl
+    aliases:
+    - splunk
+    - spl
+    - axiom
+    - apl
+    - query
+    - migration
   swarm-planner:
     category: project
-    description: "Plan multi-agent execution; use only when explicitly requested for parallel work."
+    description: Plan multi-agent execution; use only when explicitly requested for parallel work.
     path: skills/swarm-planner
+    aliases:
+    - swarm
+    - parallel
+    - agents
+    - multi-agent
+    - delegation
+    - plan
   tanstack-start-best-practices:
     category: backend
-    description: "Build with TanStack Start; use for full-stack React, SSR, auth, and server functions."
+    description: Build with TanStack Start; use for full-stack React, SSR, auth, and server functions.
     path: skills/tanstack-start-best-practices
+    aliases:
+    - tanstack
+    - start
+    - react
+    - fullstack
+    - ssr
+    - server-functions
   terraform:
     category: cloud
-    description: "Author Terraform; use for modules, infrastructure design, and IaC style."
+    description: Author Terraform; use for modules, infrastructure design, and IaC style.
     path: skills/terraform
+    aliases:
+    - terraform
+    - iac
+    - infra
+    - module
+    - aws
+    - cloud
   vercel-react-best-practices:
     category: frontend
-    description: "Optimize React and Next.js; use for rendering, data fetching, bundles, and performance."
+    description: Optimize React and Next.js; use for rendering, data fetching, bundles, and performance.
     path: skills/vercel-react-best-practices
+    aliases:
+    - react
+    - next
+    - nextjs
+    - vercel
+    - performance
+    - guidelines
+    - rules
+    - optimize
   web-design-guidelines:
     category: design
-    description: "Review web UI quality; use for accessibility, UX, layout, and interface guidelines."
+    description: Review web UI quality; use for accessibility, UX, layout, and interface guidelines.
     path: skills/web-design-guidelines
+    aliases:
+    - design
+    - ui
+    - ux
+    - accessibility
+    - review
+    - guidelines
+    - interface
   youtube-transcript-summary:
     category: ai
-    description: "Summarize YouTube transcripts; use for key points, timestamps, quotes, and takeaways."
+    description: Summarize YouTube transcripts; use for key points, timestamps, quotes, and takeaways.
     path: skills/youtube-transcript-summary
+    aliases:
+    - youtube
+    - transcript
+    - transcripts
+    - video
+    - summary
+    - timestamps
   zoom-out:
     category: project
-    description: "Zoom out on context; use for broader architecture, codebase fit, and orientation."
+    description: Zoom out on context; use for broader architecture, codebase fit, and orientation.
     path: skills/zoom-out
+    aliases:
+    - context
+    - architecture
+    - overview
+    - big-picture
+    - orientation
