@@ -1,6 +1,6 @@
 ---
 name: default-typescript-stack
-description: "[EXPLICIT INVOCATION ONLY] Hasan's default stack for new TypeScript apps/products."
+description: "Choose Hasan's TypeScript stack; use only when explicitly requested for new apps."
 ---
 
 # Default TypeScript Stack
