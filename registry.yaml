@@ -19,6 +19,9 @@ skills:
     - scrape
     - playwright
     - chrome
+    resources:
+    - refs
+    - templates
   ai-apps:
     category: ai
     description: Build AI app features; use for chat, agents, tools, streaming, and AI-native UI.
@@ -47,6 +50,8 @@ skills:
     - tools
     - agents
     - chatbot
+    resources:
+    - refs
   axiom:
     category: cloud
     description: Investigate Axiom observability; use for logs, dashboards, incidents, and query cost.
@@ -86,6 +91,10 @@ skills:
     - brief
     - reply
     - voice-note
+    resources:
+    - refs
+    - scripts
+    - agents
   cloudflare:
     category: cloud
     description: Work with Cloudflare; use for Workers, Pages, storage, networking, and deploys.
@@ -100,6 +109,8 @@ skills:
     - durable-objects
     - deploy
     - edge
+    resources:
+    - refs
   codex:
     category: project
     description: Operate Codex CLI; use for exec, resume, review, config, and local troubleshooting.
@@ -137,6 +148,9 @@ skills:
     - backend
     - auth
     - deploy
+    resources:
+    - assets
+    - agents
   default-typescript-stack:
     category: backend
     description: Choose Hasan's TypeScript stack; use only when explicitly requested for new apps.
@@ -159,6 +173,8 @@ skills:
     - ux
     - visual
     - agent
+    resources:
+    - agents
   design-collaboration:
     category: design
     description: Explore UI direction; use for options, ASCII mockups, critique, and approval gates.
@@ -195,6 +211,8 @@ skills:
     - service
     - tagged-error
     - config
+    resources:
+    - refs
   feature-build-planner:
     category: project
     description: Plan new feature builds; use for greenfield slices, dependencies, and implementation waves.
@@ -252,6 +270,9 @@ skills:
     - branch
     - diff
     - report
+    resources:
+    - refs
+    - scripts
   grill-me:
     category: design
     description: Stress-test a plan; use for rigorous questioning, tradeoffs, and decision clarity.
@@ -274,6 +295,8 @@ skills:
     - events
     - debugging
     - analytics
+    resources:
+    - refs
   macos-downloads-screenshots-hygiene:
     category: project
     description: Clean macOS files; use for Downloads, screenshots, screen recordings, and Trash recovery.
@@ -286,6 +309,9 @@ skills:
     - files
     - trash
     - desktop
+    resources:
+    - scripts
+    - agents
   mobile-app-provisioning:
     category: cloud
     description: Provision mobile apps; use for Expo EAS, Play Console, Apple Developer, and push setup.
@@ -299,6 +325,8 @@ skills:
     - push
     - fcm
     - oauth
+    resources:
+    - refs
   openai-docs:
     category: ai
     description: Use OpenAI docs; use for current OpenAI API guidance, models, SDKs, and citations.
@@ -312,6 +340,10 @@ skills:
     - sdk
     - docs
     - gpt
+    resources:
+    - refs
+    - assets
+    - agents
   react:
     category: frontend
     description: Work with React; use for components, Next.js, performance, and React Native guidance.
@@ -346,6 +378,11 @@ skills:
     - radix
     - tailwind
     - registry
+    resources:
+    - refs
+    - assets
+    - agents
+    - evals
   skill-creator:
     category: project
     description: Create or update skills; use for skill structure, metadata, references, and validation.
@@ -356,6 +393,11 @@ skills:
     - author
     - metadata
     - frontmatter
+    resources:
+    - refs
+    - scripts
+    - assets
+    - agents
   skill-installer:
     category: project
     description: Install skills; use for curated skills, GitHub skill repos, and local skill setup.
@@ -365,6 +407,10 @@ skills:
     - install
     - github
     - curated
+    resources:
+    - scripts
+    - assets
+    - agents
   spec-html-reader:
     category: design
     description: Render specs as HTML; use for reviewable architecture, plans, diagrams, and contracts.
@@ -377,6 +423,8 @@ skills:
     - architecture
     - diagram
     - review
+    resources:
+    - refs
   spl-to-apl:
     category: backend
     description: Translate Splunk SPL to APL; use for query migration and Axiom equivalents.
@@ -388,6 +436,9 @@ skills:
     - apl
     - query
     - migration
+    resources:
+    - refs
+    - tests
   swarm-planner:
     category: project
     description: Plan multi-agent execution; use only when explicitly requested for parallel work.
@@ -410,6 +461,8 @@ skills:
     - fullstack
     - ssr
     - server-functions
+    resources:
+    - refs
   terraform:
     category: cloud
     description: Author Terraform; use for modules, infrastructure design, and IaC style.
@@ -434,6 +487,8 @@ skills:
     - guidelines
     - rules
     - optimize
+    resources:
+    - refs
   web-design-guidelines:
     category: design
     description: Review web UI quality; use for accessibility, UX, layout, and interface guidelines.
@@ -457,6 +512,9 @@ skills:
     - video
     - summary
     - timestamps
+    resources:
+    - scripts
+    - agents
   zoom-out:
     category: project
     description: Zoom out on context; use for broader architecture, codebase fit, and orientation.
