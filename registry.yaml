@@ -393,6 +393,8 @@ skills:
     - author
     - metadata
     - frontmatter
+    - tokens
+    - context
     resources:
     - refs
     - scripts
