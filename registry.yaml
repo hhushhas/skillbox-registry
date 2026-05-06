@@ -11,3 +11,13 @@ skills:
     - new-app
     - starter
     - scaffold
+  goal:
+    category: project
+    description: Create or update a session goal; use when Hasan asks for a goal or describes an end state to track.
+    path: skills/goal
+    aliases:
+    - goal
+    - objective
+    - end-state
+    - target
+    - done
