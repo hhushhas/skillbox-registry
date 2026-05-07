@@ -294,6 +294,25 @@ skills:
     - plan
     - decision
     - stress-test
+  impeccable:
+    category: design
+    description: Design, critique, audit, and polish frontend interfaces with Impeccable guidance and live iteration tools.
+    path: skills/impeccable
+    aliases:
+    - frontend-design
+    - design
+    - ui
+    - ux
+    - audit
+    - critique
+    - polish
+    - responsive
+    - typography
+    - motion
+    resources:
+    - reference
+    - scripts
+    - agents
   logging-best-practices:
     category: backend
     description: Design useful logs; use for structured wide events, debugging, and analytics signals.
