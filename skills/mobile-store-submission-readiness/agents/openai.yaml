@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile Store Submission Readiness"
+  short_description: "Preflight mobile apps before store review"
+  default_prompt: "Use $mobile-store-submission-readiness to review this mobile app for App Store and Google Play submission risks."
