@@ -25,6 +25,7 @@ Treat official Apple and Google documentation as the final authority. This skill
    - Feature-to-policy mapping: `references/feature-to-policy-matrix.md`
    - Apple-focused review pass: `references/apple-review-preflight.md`
    - Google Play-focused review pass: `references/google-play-preflight.md`
+   - Console form and store listing guidance: `references/console-form-fill-guide.md`
    - Report severity and output shape: `references/rejection-risk-taxonomy.md`
    - Review notes and submission copy: `references/submission-packet-template.md`
 
@@ -70,6 +71,7 @@ Submission Packet
 - Google Play testing instructions draft.
 - Demo account / 2FA path.
 - Privacy/Data Safety inputs.
+- Store listing metadata and asset guidance.
 - Permission explanations.
 - Account deletion path and URL.
 - UGC/AI moderation explanation.
