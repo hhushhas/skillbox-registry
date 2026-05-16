@@ -356,6 +356,29 @@ skills:
     - oauth
     resources:
     - refs
+  mobile-store-submission-readiness:
+    category: project
+    description: Preflight mobile store submissions; use for App Store and Google Play rejection-risk audits, privacy, permissions, UGC/AI, and reviewer notes.
+    path: skills/mobile-store-submission-readiness
+    aliases:
+    - mobile
+    - app-store
+    - play-store
+    - google-play
+    - app-review
+    - store-review
+    - submission
+    - release
+    - privacy
+    - data-safety
+    - account-deletion
+    - ugc
+    - ai-generated-content
+    - permissions
+    - reviewer-notes
+    resources:
+    - refs
+    - agents
   openai-docs:
     category: ai
     description: Use OpenAI docs; use for current OpenAI API guidance, models, SDKs, and citations.
