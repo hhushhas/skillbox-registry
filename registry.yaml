@@ -21,3 +21,14 @@ skills:
     - end-state
     - target
     - done
+  marketing-site:
+    category: frontend
+    description: Use when creating a website. It provides guidance on making it marketing friendly.
+    path: skills/marketing-site
+    aliases:
+    - marketing
+    - landing-page
+    - product-site
+    - website
+    - web-presence
+    - seo
