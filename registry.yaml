@@ -11,6 +11,17 @@ skills:
     - new-app
     - starter
     - scaffold
+  dogfood:
+    category: project
+    description: Use what you built end-to-end as its real user after completing work, whether that is a screen, a CLI, a library or API, CI, infra, a queue or webhook, a skill or agent, a voice call, or a notification, fix the issues and frustrations the pass surfaces, then capture evidence and report honest findings. Use when asked to dogfood, self-test, try it like a user, or prove completed work.
+    path: skills/dogfood
+    aliases:
+    - dogfood
+    - self-test
+    - user-test
+    - evidence
+    resources:
+    - references
   goal:
     category: project
     description: Create or update a session goal; use when Hasan asks for a goal or describes an end state to track.
